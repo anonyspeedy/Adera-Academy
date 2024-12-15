@@ -19,7 +19,7 @@
 <body>
 
     <!-- Strat Navigation-->
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark custom-padding fixed-top">
+    <nav class="navbar navbar-expand-sm navbar-dark custom-padding fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="index.php">Adera-Academy</a>
             <span class="navbar-text">Learn and Implement</span>
@@ -81,6 +81,23 @@
         </div>
     </div>
     <!-- End Text Banner -->
+
+    <!-- Start Most Popular Course -->
+     <div class="container mt-5">
+        <h1 class="text-center">Popular Course</h1>
+        <!-- Start Most popular course 1st Card Deck -->
+         <div class="card-deck mt-4">
+            <a href="#" class="btn" style="text-align: left; padding:0px; margin:0px;">
+                <div class="card">
+                    <img src="#" class="card-img-top" alt="Coding-img">
+                    <div class="card-body">
+                        <h5 class="card-title">Learn Coding Easy Way</h5>
+                        <p class="card-text">Immerse yourself in the world of coding with our interactive e-learning platform. Designed for all skill levels, from beginners to advanced developers, our courses offer</p>
+                    </div>
+                </div>
+            </a>
+         </div>
+     </div>
 
     <!--jquery and bootstrap javascript-->
 <script src="js/jquery.min.js"></script>
